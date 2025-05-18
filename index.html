@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redoun Robert | Financial Specialist</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body class="font-sans text-gray-800 bg-gray-50">
+  <!-- Header -->
+  <header id="header" class="fixed w-full bg-transparent transition-all duration-300 z-50">
+    <div class="container mx-auto px-6 py-4">
+      <div class="flex justify-between items-center">
+        <a href="#" class="text-xl font-semibold site-logo text-white">
+          <span class="text-gold-400">R</span>edoun <span class="text-gold-400">R</span>obert
+        </a>
+        <!-- Desktop Navigation -->
+        <nav class="hidden md:flex space-x-8">
+          <a href="#home" class="nav-link text-white">Home</a>
+          <a href="#about" class="nav-link text-white">About</a>
+          <a href="#services" class="nav-link text-white">Services</a>
+          <a href="#portfolio" class="nav-link text-white">Portfolio</a>
+          <a href="#testimonials" class="nav-link text-white">Testimonials</a>
+          <a href="#contact" class="nav-link text-white">Contact</a>
+        </nav>
+        <!-- Mobile Navigation Toggle -->
+        <button id="menu-toggle" class="md:hidden focus:outline-none">
+          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <!-- Mobile Navigation Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg absolute w-full">
+      <div class="container mx-auto px-6 py-4 space-y-4">
+        <a href="#home" class="mobile-nav-link">Home</a>
+        <a href="#about" class="mobile-nav-link">About</a>
+        <a href="#services" class="mobile-nav-link">Services</a>
+        <a href="#portfolio" class="mobile-nav-link">Portfolio</a>
+        <a href="#testimonials" class="mobile-nav-link">Testimonials</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section relative h-screen flex items-center">
+      <div class="absolute inset-0 bg-gradient-to-r from-blue-900 to-blue-800 opacity-90"></div>
+      <div class="container mx-auto px-6 z-10">
+        <div class="max-w-2xl">
+          <h1 class="text-4xl md:text-5xl lg:text-6xl font-playfair font-bold text-white leading-tight mb-4 fade-in">
+            Broeren Administraties
+          </h1>
+          <h2 class="text-xl md:text-2xl text-white font-light mb-6 fade-in-delay-1">Independent Financial Specialist | Netherlands</h2>
+          <p class="text-lg text-white opacity-90 mb-8 max-w-lg fade-in-delay-2">
+            Welcome to my professional portfolio. I help individuals and businesses make informed financial decisions, optimize investments, and plan for a secure financial future.
+          </p>
+          <a href="#contact" class="btn-primary fade-in-delay-3">Contact Us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-white">
+      <div class="container mx-auto px-6">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <p class="section-subtitle">Your Trusted Partner in Financial Growth</p>
+        </div>
+
+        <div class="flex flex-col-reverse md:flex-row items-center md:space-x-12">
+          <div class="md:w-1/2 mt-8 md:mt-0">
+            <p class="text-lg mb-6">
+              I'm Redoun Robert, an experienced financial specialist based in the Netherlands. Over the past decade, I've worked with clients across diverse industries, helping them manage assets, build long-term wealth, and achieve financial clarity. My approach combines analytical precision with personal attention to ensure every client feels confident and empowered in their financial journey.
+            </p>
+            <h3 class="text-xl font-semibold mb-4 text-blue-900">Expertise:</h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+              <div class="expertise-item">
+                <i class="fas fa-chart-line mr-2"></i>
+                <span>Personal Financial Planning</span>
+              </div>
+              <div class="expertise-item">
+                <i class="fas fa-coins mr-2"></i>
+                <span>Investment Strategy</span>
+              </div>
+              <div class="expertise-item">
+                <i class="fas fa-hand-holding-usd mr-2"></i>
+                <span>Retirement & Pension Planning</span>
+              </div>
+              <div class="expertise-item">
+                <i class="fas fa-shield-alt mr-2"></i>
+                <span>Risk Management</span>
+              </div>
+              <div class="expertise-item">
+                <i class="fas fa-file-invoice-dollar mr-2"></i>
+                <span>Tax Optimization</span>
+              </div>
+              <div class="expertise-item">
+                <i class="fas fa-briefcase mr-2"></i>
+                <span>Business Financial Consulting</span>
+              </div>
+            </div>
+          </div>
+          <div class="md:w-1/2 animate-float">
+            <img src="https://images.pexels.com/photos/7821530/pexels-photo-7821530.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Financial Specialist" class="rounded-lg shadow-xl w-full h-auto">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 bg-gray-50">
+      <div class="container mx-auto px-6">
+        <div class="section-header">
+          <h2 class="section-title">Services</h2>
+          <p class="section-subtitle">Tailored Financial Services for Individuals & Businesses</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12">
+          <!-- Service 1 -->
+          <div class="service-card">
+            <div class="service-icon bg-blue-50 text-blue-700">
+              <i class="fas fa-route"></i>
+            </div>
+            <h3 class="service-title">Financial Planning</h3>
+            <p class="service-description">
+              Personalized financial roadmaps aligned with your goals and lifestyle.
+            </p>
+          </div>
+
+          <!-- Service 2 -->
+          <div class="service-card">
+            <div class="service-icon bg-gold-50 text-gold-700">
+              <i class="fas fa-chart-pie"></i>
+            </div>
+            <h3 class="service-title">Investment Advisory</h3>
+            <p class="service-description">
+              Data-driven strategies to grow and diversify your portfolio.
+            </p>
+          </div>
+
+          <!-- Service 3 -->
+          <div class="service-card">
+            <div class="service-icon bg-green-50 text-green-700">
+              <i class="fas fa-building"></i>
+            </div>
+            <h3 class="service-title">Business Consulting</h3>
+            <p class="service-description">
+              Financial analysis and strategy for startups, SMEs, and established enterprises.
+            </p>
+          </div>
+
+          <!-- Service 4 -->
+          <div class="service-card">
+            <div class="service-icon bg-indigo-50 text-indigo-700">
+              <i class="fas fa-calculator"></i>
+            </div>
+            <h3 class="service-title">Tax Planning</h3>
+            <p class="service-description">
+              Legal tax-saving strategies to protect and maximize your income.
+            </p>
+          </div>
+
+          <!-- Service 5 -->
+          <div class="service-card">
+            <div class="service-icon bg-red-50 text-red-700">
+              <i class="fas fa-umbrella"></i>
+            </div>
+            <h3 class="service-title">Retirement Solutions</h3>
+            <p class="service-description">
+              Secure and sustainable planning for your post-retirement life.
+            </p>
+          </div>
+
+          <!-- Service 6 -->
+          <div class="service-card">
+            <div class="service-icon bg-purple-50 text-purple-700">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <h3 class="service-title">Risk Management</h3>
+            <p class="service-description">
+              Assessments and recommendations to safeguard assets and minimize liabilities.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="py-20 bg-white">
+      <div class="container mx-auto px-6">
+        <div class="section-header">
+          <h2 class="section-title">Portfolio</h2>
+          <p class="section-subtitle">Proven Results Through Real Stories</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+          <!-- Case Study 1 -->
+          <div class="case-study-card">
+            <div class="case-study-image">
+              <img src="https://images.pexels.com/photos/7821485/pexels-photo-7821485.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Retirement Planning" class="w-full h-60 object-cover">
+              <div class="case-study-overlay">
+                <span>Retirement Planning</span>
+              </div>
+            </div>
+            <div class="case-study-content">
+              <h3 class="text-xl font-semibold text-blue-900 mb-3">Optimized Retirement Plan for a Dutch Couple</h3>
+              <p class="text-gray-600">
+                Helped restructure their savings, reducing tax liability and securing a 5% increase in expected post-retirement income.
+              </p>
+            </div>
+          </div>
+
+          <!-- Case Study 2 -->
+          <div class="case-study-card">
+            <div class="case-study-image">
+              <img src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Business Turnaround" class="w-full h-60 object-cover">
+              <div class="case-study-overlay">
+                <span>Business Finance</span>
+              </div>
+            </div>
+            <div class="case-study-content">
+              <h3 class="text-xl font-semibold text-blue-900 mb-3">SME Financial Turnaround</h3>
+              <p class="text-gray-600">
+                Collaborated with a local business to cut costs, increase cash flow, and achieve a 20% profit increase within 12 months.
+              </p>
+            </div>
+          </div>
+
+          <!-- Case Study 3 -->
+          <div class="case-study-card">
+            <div class="case-study-image">
+              <img src="https://images.pexels.com/photos/6694543/pexels-photo-6694543.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Investment Portfolio" class="w-full h-60 object-cover">
+              <div class="case-study-overlay">
+                <span>Investments</span>
+              </div>
+            </div>
+            <div class="case-study-content">
+              <h3 class="text-xl font-semibold text-blue-900 mb-3">Investment Diversification for a Young Professional</h3>
+              <p class="text-gray-600">
+                Designed a balanced portfolio including real estate, stocks, and ETFs tailored to long-term goals.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-20 bg-blue-900 text-white">
+      <div class="container mx-auto px-6">
+        <div class="section-header text-center">
+          <h2 class="section-title text-white">Testimonials</h2>
+          <div class="w-24 h-1 bg-gold-400 mx-auto mt-6 mb-8"></div>
+        </div>
+
+        <div class="max-w-4xl mx-auto">
+          <div class="testimonial-slider">
+            <!-- Testimonial 1 -->
+            <div class="testimonial-slide">
+              <div class="bg-white rounded-lg p-8 text-gray-800 shadow-lg">
+                <div class="text-gold-500 mb-4">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p class="text-lg italic mb-6">
+                  "Redoun's advice helped us regain control over our finances. He's not just a numbers guy—he truly listens."
+                </p>
+                <div class="flex items-center">
+                  <div class="w-12 h-12 bg-blue-200 rounded-full flex items-center justify-center mr-4">
+                    <span class="text-blue-700 font-bold text-lg">JD</span>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold">J. van Dijk</h4>
+                    <p class="text-gray-500">Rotterdam</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Testimonial 2 -->
+            <div class="testimonial-slide hidden">
+              <div class="bg-white rounded-lg p-8 text-gray-800 shadow-lg">
+                <div class="text-gold-500 mb-4">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p class="text-lg italic mb-6">
+                  "Clear, strategic, and trustworthy. I highly recommend Redoun to anyone serious about their financial health."
+                </p>
+                <div class="flex items-center">
+                  <div class="w-12 h-12 bg-blue-200 rounded-full flex items-center justify-center mr-4">
+                    <span class="text-blue-700 font-bold text-lg">AM</span>
+                  </div>
+                  <div>
+                    <h4 class="font-semibold">Anika M.</h4>
+                    <p class="text-gray-500">Amsterdam</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slider Controls -->
+          <div class="flex justify-center space-x-3 mt-8">
+            <button class="testimonial-dot active" data-slide="0"></button>
+            <button class="testimonial-dot" data-slide="1"></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-gray-50">
+      <div class="container mx-auto px-6">
+        <div class="section-header">
+          <h2 class="section-title">Contact</h2>
+          <p class="section-subtitle">Let's Talk Finance</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mt-12">
+          <div>
+            <p class="text-lg mb-8">
+              Whether you're looking for personal guidance or business insight, I'm here to help.
+            </p>
+            <div class="space-y-6">
+              <div class="flex items-start">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div>
+                  <h4 class="text-lg font-semibold text-blue-900">Email</h4>
+                  <p>robert_broeren@live.nl</p>
+                </div>
+              </div>
+              <div class="flex items-start">
+                <div class="contact-icon">
+                  <i class="fas fa-phone"></i>
+                </div>
+                <div>
+                  <h4 class="text-lg font-semibold text-blue-900">Phone</h4>
+                  <p>+31 6 26549102</p>
+                </div>
+              </div>
+              <div class="flex items-start">
+                <div class="contact-icon">
+                  <i class="fas fa-map-marker-alt"></i>
+                </div>
+                <div>
+                  <h4 class="text-lg font-semibold text-blue-900">Location</h4>
+                  <p>Netherlands</p>
+                </div>
+              </div>
+              <div class="flex items-start">
+                <div class="contact-icon">
+                  <i class="fab fa-linkedin"></i>
+                </div>
+                <div>
+                  <h4 class="text-lg font-semibold text-blue-900">LinkedIn</h4>
+                  <p><a href="#" class="text-blue-600 hover:underline">LinkedIn Profile</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <form class="bg-white rounded-lg shadow-md p-8">
+              <div class="mb-6">
+                <label for="name" class="block text-gray-700 font-medium mb-2">Name</label>
+                <input type="text" id="name" class="form-input w-full" required>
+              </div>
+              <div class="mb-6">
+                <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
+                <input type="email" id="email" class="form-input w-full" required>
+              </div>
+              <div class="mb-6">
+                <label for="phone" class="block text-gray-700 font-medium mb-2">Phone (optional)</label>
+                <input type="tel" id="phone" class="form-input w-full">
+              </div>
+              <div class="mb-6">
+                <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+                <textarea id="message" rows="4" class="form-input w-full" required></textarea>
+              </div>
+              <button type="submit" class="btn-primary w-full">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-blue-900 text-white py-12">
+    <div class="container mx-auto px-6">
+      <div class="flex flex-col md:flex-row justify-between items-center">
+        <div class="mb-6 md:mb-0">
+          <a href="#" class="text-2xl font-semibold">
+            <span class="text-gold-400">R</span>edoun <span class="text-gold-400">R</span>obert
+          </a>
+          <p class="mt-2 text-blue-200">Independent Financial Specialist</p>
+        </div>
+        <div class="flex space-x-4">
+          <a href="#" class="social-icon">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" class="social-icon">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+        </div>
+      </div>
+      <div class="border-t border-blue-800 mt-8 pt-8 text-center text-blue-300">
+        <p>&copy; 2025 Redoun Robert. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
